@@ -1,0 +1,22 @@
+﻿@model Aula2FSNET.ViewModel.DiscosViewModel
+
+@{
+    ViewData["Title"] = "DetailDisco";
+}
+
+
+<article>
+    <h2>@Html.DisplayFor(model => model.disco.Nome) (@Html.DisplayFor(model => model.disco.Ano))</h2>
+    <p>
+        Artista: @Html.DisplayFor(model => model.disco.Banda)
+        Estilo: @Html.DisplayFor(model => model.disco.Estilo)
+    </p>
+    <p>
+        Data Inclusao: @Html.DisplayFor(model => model.disco.DataInclusao)
+    </p>
+    <p>
+        Data ultima Atualizacao: @Html.DisplayFor(model => model.disco.DataUltimaAtualizacao)
+    </p>
+</article>
+
+<a asp-action="DiscoList">Voltar para lista</a>

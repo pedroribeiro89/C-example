@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{50887161-665F-4D53-A921-0A026D058B6A}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Disco/DetailDisco.cshtml">
+    <Files>
+      <File FileName="Controllers/DiscoController.cs" Line="79" Column="34" />
+      <File FileName="Repositorio/RepositorioDisco.cs" Line="37" Column="1" />
+      <File FileName="Business/DiscoBusiness.cs" Line="36" Column="23" />
+      <File FileName="Views/Disco/DetailDisco.cshtml" Line="20" Column="11" />
+      <File FileName="Modelo/Disco.cs" Line="39" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Aula2FSNET" expanded="True">
+            <Node name="Aula2FSNET" expanded="True">
+              <Node name="Business" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Migrations" expanded="True" />
+              <Node name="Modelo" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Repositorio" expanded="True" />
+              <Node name="ViewModel" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Disco" expanded="True">
+                  <Node name="DetailDisco.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Aula2FSNET PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

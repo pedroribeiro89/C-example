@@ -1,0 +1,40 @@
+﻿@model Aula2FSNET.ViewModel.DiscosViewModel
+
+@{
+    ViewData["Title"] = "EditDisco";
+}
+
+<h1>Editar Disco</h1>
+
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="disco.Id" />
+    <div class="form-group">
+        <label asp-for="disco.Nome" class="control-label"></label>
+        <input asp-for="disco.Nome" class="form-control" />
+        <span asp-validation-for="disco.Nome" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="disco.Banda" class="control-label"></label>
+        <input asp-for="disco.Banda" class="form-control" />
+        <span asp-validation-for="disco.Banda" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="disco.Estilo" class="control-label"></label>
+        <input asp-for="disco.Estilo" class="form-control" />
+        <span asp-validation-for="disco.Estilo" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="disco.Ano" class="control-label"></label>
+        <input asp-for="disco.Ano" class="form-control" />
+        <span asp-validation-for="disco.Ano" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Alterar" class="btn btn-primary" />
+    </div>
+</form>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

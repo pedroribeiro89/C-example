@@ -1,0 +1,25 @@
+﻿@model Aula2FSNET.ViewModel.DiscosViewModel
+
+@{
+    ViewData["Title"] = "DiscoList";
+}
+
+<h1>Lista de Discos</h1>
+
+<a asp-controller="Disco" asp-action="CreateDisco">Adicionar Disco</a>
+
+@foreach (var item in Model.discos) {
+    <article>
+        <h2>@Html.DisplayFor(modelItem => item.Nome) (@Html.DisplayFor(modelItem => item.Ano))</h2>
+        <p>
+            Artista: @Html.DisplayFor(modelItem => item.Banda)
+            Estilo: @Html.DisplayFor(modelItem => item.Estilo)
+        </p>
+        <p>
+            <button><a asp-action="EditDisco" asp-route-id="@item.Id">Alterar</a></button>
+            <button><a asp-action="DetailDisco" asp-route-id="@item.Id">Detalhes</a></button>
+            <button><a asp-action="DeleteDisco" asp-route-id="@item.Id">Apagar</a></button>
+        </p>
+    </article>
+}
+

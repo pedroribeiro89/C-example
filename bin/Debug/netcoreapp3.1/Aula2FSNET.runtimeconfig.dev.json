@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/imaginie/.dotnet/store/|arch|/|tfm|",
+      "/Users/imaginie/.nuget/packages"
+    ]
+  }
+}
